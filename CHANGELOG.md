@@ -1,5 +1,27 @@
 # Changelog
 
+## 7.3.0
+
+### Minor Changes
+
+- 52047d68: Add optional parameter to `billing.check` and `billing.request` to modify return value to be a more detailed object.
+- 9b8ef033: Added Subscription cancel capabilities for App Billing. Fixes #771
+
+  Usage:
+
+  ```js
+  const canceledSubscription = await shopify.billing.cancel({
+    session,
+    subscriptionId,
+  });
+  ```
+
+  See [Billing Guide](https://github.com/shopify/shopify-api-js/blob/main/docs/guides/billing.md) for more details.
+
+### Patch Changes
+
+- b6e9f83c: Add shop search param to default billing return URL for non-embedded apps
+
 ## 7.2.0
 
 ### Minor Changes
