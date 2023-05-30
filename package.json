@@ -74,11 +74,16 @@
     "node-fetch": "^2.6.7"
   },
   "dependencies": {
+    "@apollo/client": "^3.7.14",
     "@shopify/network": "^3.2.1",
+    "@shopify/shopify-api": "^7.2.0",
+    "axios": "^1.4.0",
     "compare-versions": "^5.0.3",
+    "cross-fetch": "^3.1.6",
     "isbot": "^3.6.10",
     "jose": "^4.9.1",
-    "node-fetch": "^2.6.1",
+    "ngrok": "^5.0.0-beta.2",
+    "node-fetch": "^2.6.11",
     "tslib": "^2.0.3",
     "uuid": "^9.0.0"
   },
